@@ -1,5 +1,6 @@
 import { useEffect, useState, useCallback } from "react"
 import alanBtn from "@alan-ai/alan-sdk-web"
+
 import { useCart } from "../context/CartContext"
 import storeItems from "../items.json"
 
@@ -109,6 +110,7 @@ export default function useAlan() {
           window.dispatchEvent(new CustomEvent(command, { detail: payload }))
         }
       })
+  
     )
   }, [])
 
