@@ -11,12 +11,12 @@ export default function Cart() {
     showCart,
     checkout
   } = useCart()
-  const totalCents = cart.reduce((sum, entry) => {
-    return sum + entry.item.priceCents * entry.quantity
+  const total = cart.reduce((sum, entry) => {
+    return sum + entry.item.price * entry.quantity
   }, 0)
 
   return (
-    <section className={classnames({ invisible: !showCart })}>
+    <section className={classnames({ visible: showCart })}>
       <div
         className={classnames(
           "mb-4",
@@ -40,7 +40,7 @@ export default function Cart() {
           <div className="flex justify-between items-end border-t border-b py-2 px-4">
             <span className="font-bold text-lg uppercase">Total</span>
             <span className="font-bold">
-              {formatCurrency(totalCents / 100)}
+              {formatCurrency(total)}
             </span>
           </div>
           <button

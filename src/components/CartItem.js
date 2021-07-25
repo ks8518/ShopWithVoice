@@ -1,6 +1,7 @@
 import React from "react"
 import formatCurrency from "../util/formatCurrency"
 import { useCart } from "../context/CartContext"
+import itemImage from "./itemImage"
 
 export default function CartItem({ entry }) {
   const { removeFromCart } = useCart()
@@ -8,15 +9,11 @@ export default function CartItem({ entry }) {
   function removeItem() {
     removeFromCart(entry.itemId)
   }
-
+  var item=entry.item;
   return (
     <div className="mb-6">
       <div className="block relative h-24 rounded overflow-hidden">
-        <img
-          alt="ecommerce"
-          src={`https://dummyimage.com/210x130/${entry.item.imageColor}/${entry.item.imageColor}`}
-          className="object-cover object-center w-full h-full block rounded"
-        />
+        {itemImage({item})}
         <button
           onClick={removeItem}
           className="absolute top-0 right-0 bg-black rounded-tr text-white w-6 h-6 text-lg flex justify-center items-center"
@@ -36,7 +33,7 @@ export default function CartItem({ entry }) {
           )}
         </div>
         <div>
-          {formatCurrency((entry.item.priceCents * entry.quantity) / 100)}
+          {formatCurrency(entry.item.price * entry.quantity)}
         </div>
       </div>
     </div>

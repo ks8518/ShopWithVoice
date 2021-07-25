@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from "react"
+import { useEffect, useState, useCallback, alanInstance } from "react"
 import alanBtn from "@alan-ai/alan-sdk-web"
 
 import { useCart } from "../context/CartContext"

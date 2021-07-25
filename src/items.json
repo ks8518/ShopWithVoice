@@ -1,66 +1,75 @@
 [
   {
     "id": 1,
-    "name": "Red",
-    "category": "Primary Color",
-    "priceCents": 1600,
-    "imageColor": "F00",
+    "name": "Apple",
+    "category": "Fruits",
+    "price": 120,
+    "imageName" : "apples",
+    "metric": "kg",
+
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   },
   {
     "id": 2,
-    "name": "Yellow",
-    "category": "Primary Color",
-    "priceCents": 2100,
-    "imageColor": "FF0",
+    "name": "Banana",
+    "category": "Fruits",
+    "price": 60,
+    "metric": "dozen",
+    "imageName" : "bananas",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   },
   {
     "id": 3,
-    "name": "Blue",
-    "category": "Primary Color",
-    "priceCents": 1200,
-    "imageColor": "00F",
+    "name": "Grapes",
+    "category": "Fruits",
+    "price": 70,
+    "metric": "kg",
+    "imageName" : "grapes",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   },
   {
     "id": 4,
     "name": "Orange",
-    "category": "Secondary Color",
-    "priceCents": 1800,
-    "imageColor": "F60",
+    "category": "Fruits",
+    "price": 50,
+    "metric": "kg",
+    "imageName" : "oranges",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   },
   {
     "id": 5,
-    "name": "Green",
-    "category": "Secondary Color",
-    "priceCents": 1600,
-    "imageColor": "0F0",
+    "name": "Almonds",
+    "category": "Dry Fruits",
+    "price": 800,
+    "metric": "kg",
+    "imageName" : "almonds",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   },
   {
     "id": 6,
-    "name": "Purple",
-    "category": "Secondary Color",
-    "priceCents": 2100,
-    "imageColor": "60F",
+    "name": "Lady Fingers",
+    "category": "Vegetables",
+    "price": 30,
+    "metric": "kg",
+    "imageName" : "ladyfingers",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   },
   {
     "id": 7,
-    "name": "Light Gray",
-    "category": "Grayscale",
-    "priceCents": 1200,
-    "imageColor": "AAA",
+    "name": "Carrot",
+    "category": "Vegetables",
+    "price": 40,
+    "metric": "kg",
+    "imageName" : "carrots",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   },
   {
     "id": 8,
-    "name": "Dark Gray",
-    "category": "Grayscale",
-    "priceCents": 1600,
-    "imageColor": "333",
+    "name": "Cashews",
+    "category": "Dry Fruits",
+    "price": 700,
+    "metric": "kg",
+    "imageName" : "cashews",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
   }
 ]
