@@ -1,22 +1,23 @@
 [
   {
     "id": 1,
-    "name": "Apple",
+    "name": "Apples",
     "category": "Fruits",
     "price": 120,
     "imageName" : "apples",
     "metric": "kg",
 
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+    "description": "An apple is an edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today."
   },
   {
     "id": 2,
-    "name": "Banana",
+    "name": "Bananas",
     "category": "Fruits",
     "price": 60,
     "metric": "dozen",
     "imageName" : "bananas",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+
+    "description": "Bananas contain fiber, potassium, folate, and antioxidants, such as vitamin C. All of these support heart health. A 2017 review found that people who follow a high fiber diet have a lower risk of cardiovascular disease than those on a low fiber diet."
   },
   {
     "id": 3,
@@ -25,16 +26,16 @@
     "price": 70,
     "metric": "kg",
     "imageName" : "grapes",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+    "description": "Grapes can be eaten fresh as table grapes or they can be used for making wine, jam, grape juice, jelly, grape seed extract, raisins, vinegar, and grape seed oil."
   },
   {
     "id": 4,
-    "name": "Orange",
+    "name": "Oranges",
     "category": "Fruits",
     "price": 50,
     "metric": "kg",
     "imageName" : "oranges",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+    "description": "Oranges are a good source of vitamin C, as well as several other vitamins, minerals, and antioxidants. For this reason, they may lower your risk of heart disease and kidney stones."
   },
   {
     "id": 5,
@@ -43,7 +44,7 @@
     "price": 800,
     "metric": "kg",
     "imageName" : "almonds",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+    "description": "Almonds help your ticker stay healthy. They lower LDL (bad) cholesterol and are packed with vitamin E, magnesium and potassium, which helps oxygen and nutrients flow more freely through the blood."
   },
   {
     "id": 6,
@@ -52,16 +53,16 @@
     "price": 30,
     "metric": "kg",
     "imageName" : "ladyfingers",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+    "description": "Ladyfingers, or in British English sponge fingers also known in the ultra Orthodox Jewish community as baby fingers, are low density, dry, egg-based, sweet sponge cake biscuits roughly shaped like a large finger."
   },
   {
     "id": 7,
-    "name": "Carrot",
+    "name": "Carrots",
     "category": "Vegetables",
     "price": 40,
     "metric": "kg",
     "imageName" : "carrots",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+    "description": "Carrots are a particularly good source of beta carotene, fiber, vitamin K1, potassium, and antioxidants. They also have a number of health benefits."
   },
   {
     "id": 8,
@@ -70,6 +71,6 @@
     "price": 700,
     "metric": "kg",
     "imageName" : "cashews",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure eum facere minima, dolores repudiandae quo animi earum."
+    "description": "Cashews are low in sugar and rich in fiber, heart-healthy fats, and plant protein. They're also a good source of copper, magnesium, and manganese — nutrients important for energy production, brain health, immunity, and bone health."
   }
 ]
