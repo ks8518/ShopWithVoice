@@ -2,6 +2,7 @@ import { useRef } from "react"
 import formatCurrency from "../util/formatCurrency"
 import Modal from "react-modal"
 import { useCart } from "../context/CartContext"
+import itemImage from "./itemImage"
 
 Modal.setAppElement("#root")
 
@@ -40,11 +41,7 @@ export default function StoreItemModal({ item, open, closeModal }) {
       <section className="text-gray-700 body-font overflow-hidden">
         <div className="container px-4 py-4 mx-auto">
           <div className="mx-auto flex items-center">
-            <img
-              alt="ecommerce"
-              className="object-cover object-center rounded"
-              src={`https://dummyimage.com/150x150/${item.imageColor}/${item.imageColor}`}
-            />
+            {itemImage({item})}
             <div className="pl-8 py-2">
               <h2 className="text-sm title-font text-gray-500 tracking-widest">
                 {item.category}
@@ -141,7 +138,7 @@ export default function StoreItemModal({ item, open, closeModal }) {
               <p className="leading-relaxed max-w-lg">{item.description}</p>
               <div className="flex mt-4">
                 <span className="title-font font-medium text-2xl text-gray-900">
-                  {formatCurrency(item.priceCents / 100)}
+                  {formatCurrency(item.price)} / {item.metric}
                 </span>
                 <form
                   onSubmit={handleSubmit}
